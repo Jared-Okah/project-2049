@@ -1,2 +1,5 @@
-# project-2049
-Documenting my evolution from C systems fundamentals to high-scale backend engineering and platform architecture. A permanent proof-of-work tracking code, architectural designs, and technical postmortems.
+### Problem set [0] : The key mustreject duplicate characters regardless of the capitalization status, e.g if key = Aab... (error)
+**The attempt:** Used a nested for loop to evaluate every character of the key to prevent duplicates, but couldn't figure out how to store each variable and evaluate which is repeated.
+**Logic fix:** Declared a variable which increments if a character matches the key either lowercase or uppercase (by adding or subtracting 32) then returns 1 when its equals to 2.
+
+
